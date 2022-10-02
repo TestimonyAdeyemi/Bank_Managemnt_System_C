@@ -18,7 +18,7 @@ struct orders{
 
 void generateBillHeader(char name[50], char date[30]) {
     printf("\n\n");
-        printf("\t   ADV. Resturant");
+        printf("\t   Olus Supermart");
         printf("\n\t  ---------------");
         printf("\nDate:%s",date);
         printf("\nInvoice To: %s",name);
@@ -102,11 +102,15 @@ int main(){
        }
        
        generateBillFooter(total);
+       
+       case 4:
+       printf("Bye!");
+       exit(0);
+       
+       
    }
     
     printf("\n\n");
     
     return 0;
 }
-
-
